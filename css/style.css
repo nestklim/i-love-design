@@ -33,11 +33,18 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+.ba-scroll{
+	position: relative;
+}
 .ba-scroll img{
 	margin-bottom: 50px;
 }
+.ba-scroll:hover{
+	top: 5px;
+}
 main{
-	background: url(../img/bg.jpg) bottom center no-repeat;
+	background: url(../img/bg.svg) bottom center no-repeat;
+	background-size: cover;
 	padding: 90px 0 120px;
 }
 .ba-article{
